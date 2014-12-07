@@ -1,0 +1,12 @@
+{
+    "compilationOptions": {
+        "warningsAsErrors": "true"
+    },
+    "dependencies": {
+        "LibSass.Net": "0.1.0-*",
+        "Xunit.KRunner": "1.0.0-*"
+    },
+    "commands": {
+        "test": "Xunit.KRunner"
+    }
+}

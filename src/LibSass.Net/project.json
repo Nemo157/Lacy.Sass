@@ -1,0 +1,12 @@
+{
+    "version": "0.1.0-alpha-*",
+    "description": "A low-level mono compatible wrapper around libsass",
+    "compilationOptions": {
+        "allowUnsafe": true,
+        "warningsAsErrors": true
+    },
+    "frameworks": {
+        "net45": {
+        }
+    }
+}

@@ -1,0 +1,5 @@
+.nuget/
+packages/
+artifacts/
+src/**/bin/
+*.swp
