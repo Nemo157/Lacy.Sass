@@ -2,6 +2,6 @@ using System;
 
 namespace Sass {
     public interface ICompiler {
-        string CompileString(string source);
+        Result Compile(Args args);
     }
 }

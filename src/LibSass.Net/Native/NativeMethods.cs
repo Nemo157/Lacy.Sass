@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Sass {
-    internal static class NativeMethods {
+namespace Sass.Native {
+    internal static class Methods {
         [DllImport("sass.dll")]
         internal static extern string sass_string_quote(string str, char quotemark);
 
