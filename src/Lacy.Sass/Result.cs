@@ -1,6 +1,6 @@
 using System;
 
-namespace Sass {
+namespace Lacy.Sass {
     public class Result {
         public string Css { get; set; }
         public string SourceMap { get; set; }

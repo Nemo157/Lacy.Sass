@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Sass.Native {
+namespace Lacy.Sass.Native {
     [StructLayout(LayoutKind.Sequential)]
     internal struct Options {
         public OutputStyle OutputStyle;

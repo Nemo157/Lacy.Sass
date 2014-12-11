@@ -1,6 +1,6 @@
 using System;
 
-namespace Sass {
+namespace Lacy.Sass {
     public enum OutputStyle : int {
       Nested = 0,
       Expanded = 1,

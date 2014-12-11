@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Runtime.InteropServices;
 
-namespace Sass.Native {
+namespace Lacy.Sass.Native {
     [StructLayout(LayoutKind.Sequential)]
     internal struct FolderContext {
         internal string SearchPath;

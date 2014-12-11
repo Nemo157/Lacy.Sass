@@ -1,6 +1,6 @@
 using System;
 
-namespace Sass {
+namespace Lacy.Sass {
     public class Options {
         /// <summary>
         /// Output style for the generated css code

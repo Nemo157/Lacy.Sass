@@ -1,6 +1,6 @@
 using System;
 
-namespace Sass {
+namespace Lacy.Sass {
     public enum InputStyle {
         Scss,
         Sass,

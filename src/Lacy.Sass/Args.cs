@@ -1,6 +1,6 @@
 using System;
 
-namespace Sass {
+namespace Lacy.Sass {
     public class Args {
             public string InputPath { get; set; }
             public string OutputPath { get; set; }

@@ -3,7 +3,7 @@ using System.Text;
 using System.Threading;
 using System.Runtime.InteropServices;
 
-namespace Sass.Native {
+namespace Lacy.Sass.Native {
     [StructLayout(LayoutKind.Sequential)]
     internal struct Context : IDisposable {
         private IntPtr _inputPath;

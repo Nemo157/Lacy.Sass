@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Sass.Native {
+namespace Lacy.Sass.Native {
     internal static class Helper {
         public static void TryFree(ref IntPtr ptr) {
             if (ptr != IntPtr.Zero) {

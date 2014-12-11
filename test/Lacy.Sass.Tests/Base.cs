@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using Xunit;
 
-namespace Sass.Tests {
+namespace Lacy.Sass.Tests {
     public class Base {
         [Theory]
         [MemberData("TestData")]

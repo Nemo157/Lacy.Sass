@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Sass.Native {
+namespace Lacy.Sass.Native {
     internal static class Methods {
         [DllImport("sass.dll")]
         internal static extern string sass_string_quote(string str, char quotemark);

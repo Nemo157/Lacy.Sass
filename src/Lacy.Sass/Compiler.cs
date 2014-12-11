@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Threading;
 
-namespace Sass {
+namespace Lacy.Sass {
     public class Compiler : ICompiler {
         public Result Compile(Args args) {
             var context = new Native.Context();
